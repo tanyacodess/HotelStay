@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  height: 250px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.navbar {
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%) !important;
+  border-radius: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: aqua;
+    transition: width 0.3s ease-in-out;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+.navbar-brand {
+  color: white !important;
+}
+
+.btn {
+  box-shadow: none !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  background-color: white !important;
+  color: black !important;
+  border-radius: 5px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: black !important;
+  color: white !important;
+  transform: translateY(-3px);
+}
+
+.modal-body {
+  height: 450px !important;
+  overflow-y: auto;
+}
+
+input,
+.ant-picker {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+  width: 100% !important;
+  border-radius: 3px !important;
+}
+
+.dropdown-toggle {
+  background-color: black !important;
+  border: 0px solid black !important;
+  color: white !important;
+}
+
+.i2 {
+  margin: 0 !important;
+}
+
+select {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+
+p {
+  font-size: 16px !important;
+}
+
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px !important;
+}
+
+.ant-tabs-tab,
+.ant-tabs-tab-active,
+.ant-tabs-tab-btn {
+  color: black !important;
+}
+
+.ant-tabs-ink-bar .ant-tabs-ink-bar-animated {
+  background-color: black !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+.landing {
+  height: calc(100vh) !important;
+  background: linear-gradient(180deg, rgb(99, 249, 234) 0%, rgb(37, 37, 36) 100%) !important;
+}
+
+.landing .btn {
+  background-color: white !important;
+  color: black !important;
+  margin-top: 10px !important;
+  border-color: black !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.landing .btn:hover {
+  background-color: black !important;
+  color: white !important;
+  transform: translateY(-3px);
+}
+.navbar {
+    background-color: #f9f9f9;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+  .navbar-nav {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+
+  }
+  
+  .nav-link {
+    color: #000;
+    margin-right: 1rem;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    margin-right: 1rem;
+  }
+  
+  .dropdown-menu {
+    font-size: 1.2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #000;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .dateBg{
+    background: whitesmoke !important;
+
+      }
+      .test{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        border: black 1px solid;
+        display: flex;
+        
+        
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th, td {
+        text-align: center;
+        padding: 8px;
+    }
+    
+    th {
+        background-color: #333;
+        color: white;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        color: black;
+    }
+    
+    .bs {
+        font-weight: bold;
+    }
+  .teeee{
+    background-color: aqua !important;
+  }
+.spps{
+    color: blue;
+}
+
+  
