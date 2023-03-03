@@ -1,6 +1,8 @@
 # HotelStay
-https://visionary-taffy-f146d9.netlify.app/ (NetliFy deployment is giving issues some time backend is working correctly ) </br>
-To run this solution in local system kindly follow the small steps listed below: </br>
+## https://visionary-taffy-f146d9.netlify.app/ (NetliFy deployment is giving issues some time, backend is working correctly ) </br>
+## [You can also Check this Demo Video](https://drive.google.com/file/d/1Tvpev9y-dBGo8votrARC61aPIfD4H0L-/view?usp=sharing) 
+
+## To run this solution in local system kindly follow the small steps listed below: </br>
 1)	[Download the zipped file from here and unzip it.](https://drive.google.com/file/d/1wnQj9EddlAeBdFVvaUgBxVN5Lm2E8eP_/view?usp=sharing)</br>
 2)	Open it with code editor like vs code and in terminal run command </br>
 ```npm install```
@@ -8,8 +10,7 @@ To run this solution in local system kindly follow the small steps listed below:
 4) In case if there is any issue while running ```npm install`` then run ```npm install --force``` it will download all the required packages. 
 
 
-To run the fronend of the application kindly 
-Sometimes This deployemnt is giving some issues backend is working fine 
+
 ## Welcome to Our GitHub Repository
 This repository is created to showcase our hotel booking system. Below are the features that we have implemented in this project:
 
